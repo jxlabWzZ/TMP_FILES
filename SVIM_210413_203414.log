@@ -1,0 +1,139 @@
+2021-04-13 20:34:14,569 [INFO   ]  ****************** Start SVIM-asm, version 1.0.2 ******************
+2021-04-13 20:34:14,570 [INFO   ]  CMD: python3 /home/WzZ/miniconda3/envs/svimasm_env/bin/svim-asm haploid dd1 d1.bam /home/WzZ/01.SV_calling/00.Call_SV/00.NGS/drcv8.fa
+2021-04-13 20:34:14,571 [INFO   ]  WORKING DIR: /home/WzZ/02.syri/02.sus11.1/SVIM0/dd1
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: sub, VALUE: haploid
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: working_dir, VALUE: /home/WzZ/02.syri/02.sus11.1/SVIM0/dd1
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: bam_file, VALUE: d1.bam
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: genome, VALUE: /home/WzZ/01.SV_calling/00.Call_SV/00.NGS/drcv8.fa
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: verbose, VALUE: False
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: min_mapq, VALUE: 20
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: min_sv_size, VALUE: 40
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: max_sv_size, VALUE: 100000
+2021-04-13 20:34:14,571 [INFO   ]  PARAMETER: query_gap_tolerance, VALUE: 50
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: query_overlap_tolerance, VALUE: 50
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: reference_gap_tolerance, VALUE: 50
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: reference_overlap_tolerance, VALUE: 50
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: sample, VALUE: Sample
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: types, VALUE: DEL,INS,INV,DUP:TANDEM,DUP:INT,BND
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: symbolic_alleles, VALUE: False
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: tandem_duplications_as_insertions, VALUE: False
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: interspersed_duplications_as_insertions, VALUE: False
+2021-04-13 20:34:14,572 [INFO   ]  PARAMETER: query_names, VALUE: False
+2021-04-13 20:34:14,573 [INFO   ]  ****************** STEP 1: COLLECT ******************
+2021-04-13 20:34:14,573 [INFO   ]  MODE: haploid
+2021-04-13 20:34:14,573 [INFO   ]  INPUT: /home/WzZ/02.syri/02.sus11.1/SVIM0/d1.bam
+2021-04-13 20:34:14,660 [INFO   ]  Processing chromosome chr1...
+2021-04-13 20:34:16,600 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 285779334, CIGAR: 272995474S1146691M1794D188367S
+2021-04-13 20:34:16,600 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 281727449, CIGAR: 268946636S1041098M2178D4342798S
+2021-04-13 20:34:16,601 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1911616, CIGAR: 1903127S706032M624D271721373S
+2021-04-13 20:34:16,602 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284866992, CIGAR: 272082618S510849M232D1737065S
+2021-04-13 20:34:16,602 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283252105, CIGAR: 270467237S363243M930D3500052S
+2021-04-13 20:34:16,602 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4034001, CIGAR: 4018656S389280M2250D269922596S
+2021-04-13 20:34:16,602 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 2893760, CIGAR: 2883875S323672M2393I271120592S
+2021-04-13 20:34:16,603 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 2618615, CIGAR: 2609516S274208M595D271446808S
+2021-04-13 20:34:16,603 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 281443298, CIGAR: 268663152S283373M527D5384007S
+2021-04-13 20:34:16,603 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1213975, CIGAR: 1207150S311594M1203D272811788S
+2021-04-13 20:34:16,603 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 711435, CIGAR: 701972S265807M6D273362753S
+2021-04-13 20:34:16,603 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3217456, CIGAR: 3209976S246357M608D270874199S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 285512874, CIGAR: 272728487S266189M588I1335268S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 23761, CIGAR: 5437S227290M143D274097805S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1605707, CIGAR: 1597566S261587M56D272471379S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4803686, CIGAR: 4786716S233055M14D269310761S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284511104, CIGAR: 271725848S249150M919I2354615S
+2021-04-13 20:34:16,604 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5037058, CIGAR: 5020083S216960M847I269092642S
+2021-04-13 20:34:16,605 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283045489, CIGAR: 270261874S205201M1033D3863457S
+2021-04-13 20:34:16,605 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5288158, CIGAR: 5272372S206463M282I268851415S
+2021-04-13 20:34:16,605 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 507642, CIGAR: 498866S172214M193D273659452S
+2021-04-13 20:34:16,605 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 282831158, CIGAR: 270047717S151146M196D4131669S
+2021-04-13 20:34:16,605 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3569526, CIGAR: 3561292S156925M1835D270612315S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284106872, CIGAR: 271323072S147082M194D2860378S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 286969811, CIGAR: 274184004S143138M156D3390S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283616600, CIGAR: 270830537S155872M547I3343576S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4425419, CIGAR: 4407824S140387M715I269781606S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3912927, CIGAR: 3897748S120885M170D270311899S
+2021-04-13 20:34:16,606 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3798407, CIGAR: 3783432S114220M249D270432880S
+2021-04-13 20:34:16,607 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 285378055, CIGAR: 272593751S134681M80D1602100S
+2021-04-13 20:34:16,607 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3464891, CIGAR: 3456756S104163M66D270769613S
+2021-04-13 20:34:16,607 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283961145, CIGAR: 271177302S138509M62I3014659S
+2021-04-13 20:34:16,607 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 330004, CIGAR: 311805S122500M132I273896095S
+2021-04-13 20:34:16,607 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1095417, CIGAR: 1088183S118362M432I273123555S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5494923, CIGAR: 5479380S120676M259D268730476S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5616018, CIGAR: 5600191S120633M1480D268609708S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 977526, CIGAR: 968175S110927M1596I273249834S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284416572, CIGAR: 271632078S93658M756D2604796S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284333861, CIGAR: 271549522S82282M310D2698728S
+2021-04-13 20:34:16,608 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4581921, CIGAR: 4565121S86642M25D269678769S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4668726, CIGAR: 4651915S70717M164I269607736S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1526804, CIGAR: 1518776S78707M51D272733049S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4739503, CIGAR: 4722908S63732M356D269543892S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 281322120, CIGAR: 268541552S61812M143I5727025S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3734870, CIGAR: 3724095S58705M49D270547732S
+2021-04-13 20:34:16,609 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284267112, CIGAR: 271483171S66153M73D2781208S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 282985384, CIGAR: 270201478S60014M165I4068875S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 282770984, CIGAR: 269987956S59524M409D4283052S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5753286, CIGAR: 5736203S66190M226I268527913S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283832710, CIGAR: 271047362S77325M1021I3204824S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5845135, CIGAR: 5828424S56860M84D268445248S
+2021-04-13 20:34:16,610 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 252168, CIGAR: 233809S43357M428I274052938S
+2021-04-13 20:34:16,611 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283910305, CIGAR: 271125961S49755M14D3154816S
+2021-04-13 20:34:16,611 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284824028, CIGAR: 272039698S42818M15D2248016S
+2021-04-13 20:34:16,611 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284784171, CIGAR: 272000229S38792M40D2291511S
+2021-04-13 20:34:16,611 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 295469, CIGAR: 277660S33934M173D274018938S
+2021-04-13 20:34:16,612 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283782216, CIGAR: 270997149S49438M250D3283945S
+2021-04-13 20:34:16,612 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 281404483, CIGAR: 268624063S38759M274I5667436S
+2021-04-13 20:34:16,612 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5254647, CIGAR: 5239195S33106M318D269058231S
+2021-04-13 20:34:16,612 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 688194, CIGAR: 678703S22680M320I273628829S
+2021-04-13 20:34:16,612 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 286927850, CIGAR: 274142173S25700M107D162659S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 471379, CIGAR: 457882S35941M4283I273832426S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5819534, CIGAR: 5803161S25116M324D268502255S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284760297, CIGAR: 271975959S23690M375I2330508S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1867724, CIGAR: 1859449S26511M287D272444572S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 281384314, CIGAR: 268603869S19985M54I5706624S
+2021-04-13 20:34:16,613 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 4565903, CIGAR: 4549073S15776M28I269765655S
+2021-04-13 20:34:16,614 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 456173, CIGAR: 442087S14407M498I273873540S
+2021-04-13 20:34:16,614 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 5738429, CIGAR: 5721116S14487M12D268594929S
+2021-04-13 20:34:16,614 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 286953712, CIGAR: 274167931S15913M61D146688S
+2021-04-13 20:34:16,614 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1894834, CIGAR: 1886123S16470M63D272427939S
+2021-04-13 20:34:16,614 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 680783, CIGAR: 671298S7361M17I273651856S
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284099772, CIGAR: 271315991S7036M20D3007505S
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284255510, CIGAR: 271471789S11042M222D2847701S
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283774096, CIGAR: 270988802S7939M18D3333791S
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 18327, CIGAR: 274325098S5434M2D
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 1088792, CIGAR: 1081222S6538M310I273242462S
+2021-04-13 20:34:16,615 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 452564, CIGAR: 434498S2931M10D273893103S
+2021-04-13 20:34:16,616 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 282983166, CIGAR: 270199529S1912M10D4129091S
+2021-04-13 20:34:16,616 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3732965, CIGAR: 3722223S1690M2I270606617S
+2021-04-13 20:34:16,617 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3793853, CIGAR: 3782959S830M1I270546742S
+2021-04-13 20:34:16,617 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 283772580, CIGAR: 270987344S876M21D3342312S
+2021-04-13 20:34:16,617 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 3732131, CIGAR: 3721549S515M6D270608468S
+2021-04-13 20:34:16,617 [ERROR  ]  Overflow Error while retrieving supplementary CIGAR string. Read name: chr1, Position: 284254683, CIGAR: 271470957S681M5I2858889S
+2021-04-13 20:34:17,938 [INFO   ]  Processing chromosome chr2...
+2021-04-13 20:34:17,938 [INFO   ]  Processing chromosome chr3...
+2021-04-13 20:34:17,938 [INFO   ]  Processing chromosome chr4...
+2021-04-13 20:34:17,938 [INFO   ]  Processing chromosome chr5...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr6...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr7...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr8...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr9...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr10...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr11...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr12...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr13...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr14...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr15...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr16...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr17...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chr18...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chrX...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chrY...
+2021-04-13 20:34:17,939 [INFO   ]  Processing chromosome chrMT...
+2021-04-13 20:34:17,941 [INFO   ]  ****************** STEP 2: OUTPUT ******************
+2021-04-13 20:34:17,941 [INFO   ]  Found 53 deletion candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Found 4 inversion candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Found 42 insertion candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Found 2 tandem duplication candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Found 0 interspersed duplication candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Found 5 breakend candidates.
+2021-04-13 20:34:17,941 [INFO   ]  Write SV candidates..
+2021-04-13 20:34:19,361 [INFO   ]  Draw plots..
+2021-04-13 20:34:23,281 [INFO   ]  Done.
